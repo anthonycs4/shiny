@@ -1,7 +1,7 @@
 import subprocess
 
 def ejecutar_comando():
-    comando = "shiny run --reload --launch-browser app_dir/app.py"
+    comando = "shiny run --reload --launch-browser app.py"
     proceso = subprocess.run(comando, shell=True, capture_output=True, text=True)
 
     # Verifica si hubo errores
