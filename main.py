@@ -14,4 +14,5 @@ def ejecutar_comando():
         print(proceso.stdout)
 
 # Llamada a la función para ejecutar el comando
-ejecutar_comando()
+if __name__ == "__main__":
+    ejecutar_comando()
